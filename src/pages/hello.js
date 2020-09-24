@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 export default function Home() {
 	return (
 		<div className="container">
-			<h1>Home</h1>
-			<Link to="/hello">Hello</Link>
+			<h1>Hello!</h1>
+			<Link to="/">Back Home</Link>
 			<br />
 			<Link to="/hello-world">Hello, World!</Link>
 		</div>
